@@ -69,6 +69,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #fafafa;
-    font-family: sams-serif;
+    font-family: sans-serif;
     width: 60vw;
 }
+
+.first {
+    height: 25vh;
+    display: flex;
+    margin: 1rem;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
