@@ -66,5 +66,9 @@ body {
 }
 
 .right{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    font-family: sams-serif;
     width: 60vw;
 }
