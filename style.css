@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Norse;
+    src: url(../fonts/Norse.woff)
+}
+
+@font-face {
+    font-family: Norsebold;
+    src: url(../fonts/Norse-Bold.woff)
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -16,6 +27,7 @@ body {
     width: 40vw;
     color: white;
     position: relative;
+    font-family: Norse, sans-serif;
 }
 
 
