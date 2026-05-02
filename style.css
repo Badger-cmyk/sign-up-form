@@ -123,3 +123,32 @@ input:focus {
 input[type="password"]:focus:invalid {
     border-color: red;
 }
+
+.third {
+    height: 30vh;
+    font-family: sans-serif;
+}
+
+.third button {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.third p {
+    margin-left: 1rem;
+}
+
+.third p a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
