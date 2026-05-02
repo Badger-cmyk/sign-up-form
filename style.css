@@ -81,3 +81,45 @@ body {
     align-items: flex-end;
 }
 
+.second {
+    height: 45vh;
+    background-color: white;
+    box-shadow: 0 1px 3px;
+}
+
+.form-container {
+    display: flex;
+    gap: 10%;
+    margin: 1rem;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin: 1rem;
+}
+
+form {
+    font-size: 0.8rem;
+}
+
+input {
+    font-size: 0.8rem;
+    margin-bottom: 10%;
+    padding: 0.2rem;
+    border: 1px solid #E5E7EBcc;
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px;
+}
+
+input[type="password"]:focus:invalid {
+    border-color: red;
+}

@@ -33,6 +33,44 @@
                     <br><br>You <em>know</em> you want to.
                 </h4>
             </div>
+
+            <div class="second">
+                <h4 class="heading">Let's do this!</h4>
+
+                <form action="/signup" method="post" id="signupForm">
+                    <div class="form-container">
+                        <div class="left-form">
+                            <div class="form-div">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" name="firstName" id="firstName" placeholder="Thor" maxlength="10" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" placeholder="thorodinson@gmail.com" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="firstName">PASSWORD</label>
+                                <input type="password" name="password" id="password" minlength="8" required>
+                            </div>
+                        </div>
+
+                        <div class="right-form">
+                            <div class="form-div">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" name="lastName" id="lastName" placeholder="Odinson" maxlength="10" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="tel">PHONE NUMBER</label>
+                                <input type="tel" name="tel" id="tel" pattern="\+\d{1,3}[\s\-]?\d{4,14}" required>
+                            </div>
+                            <div class="form-div">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" required>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
