@@ -1,11 +1,11 @@
 @font-face {
     font-family: Norse;
-    src: url(../fonts/Norse.woff)
+    src: url(./fonts/Norse.woff)
 }
 
 @font-face {
     font-family: Norsebold;
-    src: url(../fonts/Norse-Bold.woff)
+    src: url(./fonts/Norse-Bold.woff)
 }
 
 
